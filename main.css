@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(246, 247, 248);
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #2316dd;
+    color: #fff;
+}
+
+section {
+    height: 100%;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+.cardes {
+    padding-top: 20px;
+}

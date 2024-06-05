@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Express Tech</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Express Tech</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sect2">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sect3">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sect4">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel-exemplo" >
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="images/Image_carrosel1.jpg" alt="celulares">
+                    <div class="carousel-caption">
+                        <h2>Celulares</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/Image_carrosel2.jpg" alt="drone">
+                    <div class="carousel-caption">
+                        <h2>Drones</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/Image_carrosel3.jpg" alt="computador">
+                    <div class="carousel-caption">
+                        <h2>Computadores</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <section class="container" id="sect2">
+            <h2>Promoções</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <del>R$1500,00</del>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="sect3">
+            <h2>Produtos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardes col-lg-4 col-md-6">
+                        <div class="card">
+                            <img class="d-block w-100" src="images/Image_carrosel1.jpg">
+                            <div class="card-body">
+                                <h3 class="title">Nome do produto</h3>
+                                <h4 class="subtitle">R$1000,00</h4>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="sect4">
+            <h2>Contato</h2>
+            <h5 class="title">Em breve...</h5>
+        </section>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
